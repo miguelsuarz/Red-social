@@ -1,0 +1,68 @@
+.galada{
+    font-family: 'Galada', cursive;
+}
+.teko{
+    font-family: 'Teko', sans-serif;
+}
+.neucha{
+    font-family: 'Neucha', cursive;
+}
+.gris{
+    color: #F1F1F2;
+}
+.gris2{
+    color: #959BA0;
+}
+.gris3{
+    color: #6C7A83;
+}
+.azul{
+    color: #455769;
+}
+.azul2{
+    color: #364B57;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+    height: 100vh;
+}
+.espacio-arriba{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.login-box{
+    width: 320;
+    height: 420;
+    background: #000000;
+    color: #F1F1F2;
+    top: 50%;
+    left: 50%;
+    position: absolute;/*Posicion de la caja*/
+    transform: translate(-50%, -50%);
+    box-sizing: border-box; 
+    padding: 70px 30px;
+}
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;/*Dar forma circular a la imagen*/
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center ;
+    font-size: 22;
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
